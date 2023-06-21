@@ -1,0 +1,17 @@
+{
+  "name": "@cactus/zod",
+  "private": false,
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Lucas De Curtis",
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^3.21.4"
+  }
+}
