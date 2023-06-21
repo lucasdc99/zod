@@ -20,4 +20,8 @@ export const phoneSchema = z
     return currentValue;
   });
 
+export const idSchema = z.coerce.number().min(1);
+
+export const emailSchema = z.string().email().max(50).toLowerCase();
+
 export { z };
