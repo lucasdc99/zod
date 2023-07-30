@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@lucactus/variables':
+    specifier: ^1.0.2
+    version: 1.0.2
   zod:
     specifier: ^3.21.4
     version: 3.21.4
@@ -22,6 +25,10 @@ packages:
   /@lucactus/prettier@1.0.0:
     resolution: {integrity: sha512-Kx6a/GECHvV52j6DwL8xiIxviH7QmBVc7uZjhPtPCAoUY7zvCiEoCzbEgXHwYzxDyKanphiVP6g8/P1xkirZmA==}
     dev: true
+
+  /@lucactus/variables@1.0.2:
+    resolution: {integrity: sha512-dsG0xW/Mfkm+LIXCR7ns8FlsFTRdxDWPqMeoHNiWRRwc6+Uw6nS2dCjc04V4P4i6fxY5kh+XUeOqDADZ+x4X3A==}
+    dev: false
 
   /typescript@5.1.3:
     resolution: {integrity: sha512-XH627E9vkeqhlZFQuL+UsyAXEnibT0kWR2FWONlr4sTjvxyJYnyefgrkyECLzM5NenmKzRAy2rR/OlYLA1HkZw==}

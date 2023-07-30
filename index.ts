@@ -1,3 +1,4 @@
+import { REQUIRED_FIELD } from "@lucactus/variables";
 import { z } from "zod";
 
 export const phoneSchema = z
@@ -20,7 +21,9 @@ export const phoneSchema = z
     return currentValue;
   });
 
-export const idSchema = z.coerce.number().min(1);
+export const idSchema = z.coerce
+  .number({ invalid_type_error: REQUIRED_FIELD, required_error: REQUIRED_FIELD })
+  .min(1, REQUIRED_FIELD);
 
 export const emailSchema = z.string().email().max(50).toLowerCase();
 
