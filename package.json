@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@lucactus/variables": "^1.0.3",
-    "zod": "^3.22.2"
+    "zod": "3.21.4"
   },
   "devDependencies": {
     "@lucactus/prettier": "^1.0.0",
