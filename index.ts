@@ -15,6 +15,12 @@ export const phoneSchema = z
     if (currentValue.startsWith("0033")) {
       return currentValue.slice(4);
     }
+    if (currentValue.startsWith("+972")) {
+      return currentValue.slice(4);
+    }
+    if (currentValue.startsWith("00972")) {
+      return currentValue.slice(5);
+    }
     if (currentValue.startsWith("0")) {
       return currentValue.slice(1);
     }
